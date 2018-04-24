@@ -9,6 +9,7 @@ interface Props extends React.HTMLProps<HTMLAnchorElement> {
   cssModule?: CSSModule;
   onClick?: React.MouseEventHandler<any>;
   href?: string;
+  to?: string;
 }
 
 declare var NavLink: React.StatelessComponent<Props>;
